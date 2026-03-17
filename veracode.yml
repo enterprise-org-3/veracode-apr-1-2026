@@ -49,12 +49,12 @@ veracode_sca_scan:
       - '*'
     branches_to_exclude:
   pull_request:
-    trigger: false
+    trigger: true
     action:
       - opened
       - synchronize
     target_branch:
-      - js-dynamic
+      - default_branch
   fix_for_sca:
     # Fix for SCA configuration
     pull_request:
