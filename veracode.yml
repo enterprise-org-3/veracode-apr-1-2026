@@ -54,7 +54,7 @@ veracode_sca_scan:
       - opened
       - synchronize
     target_branch:
-      - default_branch
+      - js-dynamic
   fix_for_sca:
     # Fix for SCA configuration
     pull_request:
